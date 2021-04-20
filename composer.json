@@ -1,8 +1,7 @@
 {
-    "name": "beyondcode/laravel-masked-db-dump",
+    "name": "PetrovichMirr/laravel-masked-db-dump",
     "description": "Dump masked information from your database",
     "keywords": [
-        "beyondcode",
         "laravel-masked-db-dump"
     ],
     "homepage": "https://github.com/beyondcode/laravel-masked-db-dump",
