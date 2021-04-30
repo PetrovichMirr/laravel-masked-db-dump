@@ -1,6 +1,6 @@
 {
-    "name": "PetrovichMirr/laravel-masked-db-dump",
-    "description": "Dump masked information from your database",
+    "name": "beyondcode/laravel-masked-db-dump",
+    "description": "Dump masked information from your database. Changes from the original package (adaptation for Laravel version 6): doctrine/dbal - only version ^2.0 + illuminate/console^6.0 + illuminate/support^6.0, fakerphp/faker^1.9.1 (original fakerphp/faker^1.13)",
     "keywords": [
         "laravel-masked-db-dump"
     ],
@@ -15,11 +15,11 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.3",
         "doctrine/dbal": "^2.0",
-        "fakerphp/faker": "^1.13",
-        "illuminate/console": "^6.0|^8.0|^8.0",
-        "illuminate/support": "^6.0|^8.0|^8.0"
+        "fakerphp/faker": "^1.9.1",
+        "illuminate/console": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.12",
